@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Chương trình công nghệ thông tin</title>
+    <style>
+        /* Tổng thể khung bao ngoài */
+        .container {
+            border: 3px solid black;
+            max-width: 800px; /* Độ rộng vừa phải để xem trên mọi máy tính */
+            margin: 20px auto; /* Căn giữa khung */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Thanh tiêu đề xám */
+        .header {
+            background-color: #cccccc;
+            padding: 15px;
+            font-weight: bold;
+        }
+
+        /* Tên trường và khoa */
+        .school-info {
+            padding: 10px;
+            font-family: Tahoma;
+            font-size: 20px;
+            font-weight: bold;
+            color: blue;
+        }
+
+        /* Tiêu đề chính đỏ */
+        .main-title {
+            text-align: center;
+            color: red;
+            font-family: Verdana;
+            font-size: 25px;
+            margin: 20px 0;
+        }
+
+        /* Định dạng danh sách */
+        .curriculum-list {
+            color: green;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 1.6; /* Giúp các dòng cách nhau dễ đọc hơn */
+        }
+
+        .graduate-info {
+            color: blue;
+            font-size: 15px;
+            padding-left: 10px;
+        }
+        
+        /* Chỉnh riêng cho danh sách con bên trong */
+        ul {
+            font-weight: normal; /* Năm thứ 1 đậm, nhưng môn học thì bình thường */
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">Chương trình công nghệ thông tin</div>
+    <hr>
+
+    <div class="school-info">
+        Trường Đại Học Bạc Liêu <br>
+        <div style="text-indent: 20px;">Khoa Kỹ Thuật và Công Nghệ</div>
+    </div>
+
+    <h1 class="main-title">CHƯƠNG TRÌNH ĐÀO TẠO CNTT</h1>
+    <hr>
+
+    <div class="curriculum-list">
+        <ol> 
+            <li> Năm thứ 1
+                <ul>
+                    <li>Tin học đại cương</li>
+                    <li>Tin học văn phòng</li>
+                    <li>Lập trình căn bản</li>
+                </ul>
+            </li>
+            <li> Năm thứ 2
+                <ul>
+                    <li>Cấu trúc dữ liệu & Giải thuật</li>
+                    <li>Lập trình C</li>
+                    <li>Lập trình quản lý</li>
+                </ul>
+            </li>
+            <li> Năm thứ 3
+                <ul>
+                    <li>Lập trình hướng đối tượng</li>
+                    <li>Cơ sở dữ liệu</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <hr>
+
+    <div class="graduate-info">
+        <p style="font-style: italic;">Thi tốt nghiệp:</p>
+        <ul>
+            <li>Triết học</li>
+            <li>Toán rời rạc</li>
+            <li>Tin học cơ sở: <i>Cơ sở dữ liệu và cấu trúc dữ liệu</i></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
